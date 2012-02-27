@@ -1698,8 +1698,8 @@ def set_theme():
         }
     else:
         theme = {
-            'title': ansi['darkblue'],
-            'subtitle': ansi['blue'] + ansi['underline'],
+            'title': ansi['white'],
+            'subtitle': ansi['gray'] + ansi['underline'],
             'frame': ansi['darkblue'],
             'default': ansi['default'],
             'error': ansi['white'] + ansi['redbg'],
